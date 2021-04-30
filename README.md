@@ -1,11 +1,12 @@
 # Class Constants
 
-## Objectives
-1. Understand what a class constant is
-2. Use a class constant
-3. Know when to use `attr_accessor` VS creating the methods yourself
+## Learning Goals
 
-## Description
+- Understand what a class constant is
+- Use a class constant
+- Know when to use `attr_accessor` VS creating the methods yourself
+
+## Introduction
 
 Previously, we saw how to make each individual instance of a class hold on to the information about itself.  A book object, an instance of the `Book` class, knew its own title and author and genre.  Building upon that, you will learn to add functionality that allows a class to hold information from across all the instances of that class that have been created.
 
@@ -149,7 +150,3 @@ Open `spec/02_shoe_spec.rb` and start making the tests pass. Write your code in 
 To run the specs, type `learn spec/02_shoe_spec.rb` on your command line.
 
 Happy coding!
-
-
-
-
